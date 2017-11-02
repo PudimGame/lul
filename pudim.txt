@@ -1,4 +1,4 @@
-    string fala2 = "O bagulho tá doido, mermão. Vai passando o croissant."
+    string fala2 = "O bagulho tá doido, mermão. Vai passando a grana do caixa."
 
 
     background = al_load_bitmap("./pm/lul.png");
