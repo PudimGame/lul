@@ -1,0 +1,15 @@
+    string fala2 = "O bagulho tá doido, mermão. Vai passando o croissant."
+
+
+    background = al_load_bitmap("./pm/lul.png");
+    //padeiroface = al_load_bitmap("./IMGS/marcio.png");
+    pudimbody = al_load_bitmap("./IMGS/pudao.png");
+    bossbody = al_load_bitmap("boss.png");
+    //padeirobody = al_load_bitmap("./IMGS/padeiro.png");
+
+    //unsigned char camadaFundo[A_MAPA][L_MAPA];
+    unsigned char camadaColisao[A_MAPA][L_MAPA];
+    unsigned char camadaFundo[A_MAPA][L_MAPA];
+    InitHero(pudipudao, pudimbody, 150, 1151);
+    InitBoss(firstBoss, bossbody, 300, 1087);
+    InitBullet(bullets, NUM_BULLETS,pudipudao);

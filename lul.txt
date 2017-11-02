@@ -1,7 +1,1 @@
-HI WORDLD
-13213
-
-3212
-212
-
-FUCK THIS SHIT
+string fala2 = "O bagulho tá doido, mermão. Vai passando o croissant."
